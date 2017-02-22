@@ -53,3 +53,24 @@ header nav ul li a {
 	width: 150px;
 	margin: auto;
 }
+
+.conseils {
+	background: url("conseils_img.jpg") no-repeat scroll 0% 0%;
+	height: 766px;
+}
+
+.conseils span {
+	color: #fff;
+	background-color: #E00034;
+	font-weight: bold;
+	font-size: 24px;
+	padding: 10px;
+	margin-left: 100px;
+}
+
+.conseils p {
+	margin-left: 100px;
+	text-transform: uppercase;
+	font-family: 'Source Sans Pro', sans-serif;
+	font-size: 50px;
+}
