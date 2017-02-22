@@ -74,3 +74,59 @@ header nav ul li a {
 	font-family: 'Source Sans Pro', sans-serif;
 	font-size: 50px;
 }
+
+footer {
+	background-color: #3A3A3A;
+	position: absolute;
+	width: 100%;
+	color: #fff;
+	padding: 70px 0;
+}
+
+input[type=mail] {
+	height: 40px;;
+}
+
+button {
+	background-color: #089B6C;
+	color: #fff;
+	border: 1px solid #089B6C;
+	width: 100px;
+	height: 40px;
+	border-radius: 5px;
+	cursor: pointer;
+}
+
+.flex-container {
+	display: flex;
+	display: -webkit-flex;
+	flex-direction: row;
+	justify-content: space-between;
+	-webkit-justify-content: space-between;
+	align-items: center;
+	-webkit-align-items: center;
+}
+
+footer ul li {
+	list-style-type: none;
+	line-height: 2em;
+}
+
+footer ul li a {
+	color: #3C5689;
+	text-decoration: none;
+}
+
+footer p {
+	text-align: center;
+}
+
+footer p a {
+	color: #3C5689;
+	text-decoration: none;
+	margin: 20px;
+}
+
+footer ul li a:hover, footer p a:hover {
+	text-decoration: underline;
+}
